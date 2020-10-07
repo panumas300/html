@@ -1,0 +1,102 @@
+body{
+    background-color: thistle;
+}
+header,footer{
+    background-color: tomato;
+}
+article,aside{
+    background-color: wheat;
+}
+aside{
+    float: right;
+    width: 18%;
+}
+article{
+    float: left;
+    width: 80%;
+    margin-right: 2%;
+}
+footer{
+    clear: both;
+    position: relative;
+    top: 15px;
+}
+header,footer,aside,article{
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+}
+aside li,nav li{
+    list-style: none;
+}
+header,footer,section,nav{
+    width: 1000px;
+    margin: auto;
+}
+/*nav li{
+    display: inline-block;
+    padding: 5px;
+}
+nav ul li{
+    background: lightskyblue;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: tomato;
+}*/
+ul #nav{
+    background : #0cf;
+    width: 1000px;
+    heieght: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}
+#home a{
+    background: #09f;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+#home a:hover{
+    bordor-top-left-
+}
+ul#nav{
+    background: #0cf;
+    width: 1000px;
+    height:45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    margin:0;
+    display:block;
+    list-style:none;
+    border-radius:10px;
+    }
+    #home a{
+    background:#09f;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    }
+    #home a:hover{ border-top-left-radius:10px; border-bottom-left-radius:10px; }
+nav ul li a{
+    font-family:Angsana New;
+    font-size:18px;
+    line-height:25px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    float:left;
+    text-decoration:none;
+    color:#fff;
+    text-shadow:0px 1px 5px #333;
+    border-left:solid 1px #006;
+    border-right:solid 1px #00f;
+    border-left:solid 1px rgba(255,255,255,0.3);
+    border-right:solid 1px rgba(255,255,255,0.1);
+}
+nav ul li a:hover{ background:#09f; }
